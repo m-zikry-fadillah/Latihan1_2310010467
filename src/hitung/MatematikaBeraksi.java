@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package hitung;
 
-/**
- *
- * @author User
- */
 public class MatematikaBeraksi {
-    
+    public static void main(String[] args) {
+        //membuat objek
+        Matematika zikry = new Matematika(2,3);
+
+        System.out.println("Hasil penjumlahan: " + zikry.setPenjumlahan());
+        System.out.println("Hasil pengurangan: " + zikry.setPengurangan());
+        System.out.println("Hasil perkalian: " + zikry.setPerkalian());
+        System.out.println("Hasil pembagian: " + zikry.setPembagian());
+    }
 }
