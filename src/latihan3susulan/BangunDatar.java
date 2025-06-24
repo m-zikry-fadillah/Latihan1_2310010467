@@ -1,11 +1,15 @@
 package latihan3susulan;
 
 /**
- * Nama  : Muhammad Zikry Fadillah
- * NPM   : 2310010467
- * Kelas : 4A Reguler Banjarmasin
+ * Nama  : Ziyy Fall
+ * NPM   : 202143501234
+ * Kelas : TI-2B
  */
 
 public class BangunDatar {
-    // Ini adalah class kosong sebagai awal (initial commit)
+    // Atribut bertipe bilangan desimal
+    double alas;
+    double tinggi;
+    double jariJari;
+    double hasil;
 }
